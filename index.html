@@ -1,0 +1,1125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi New Space</title>
+    <link rel="icon" type="image/x-icon" href="./favicon-16x16.png">
+    <!-- External CSS Libraries -->
+    <!-- MyCSS -->
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/fontawesome.min.css">
+
+    <!-- cssEnd -->
+    <link rel="stylesheet" href="bootstrap.min.style.css">
+    <link rel="stylesheet" href="animated.min.style.css">
+    <link rel="stylesheet" href="bootstrap-submenu.css">
+    <link rel="stylesheet" href="bootstrap-select.min.css">
+    <link rel="stylesheet" href="leaflet.css" type="text/css">
+    <link rel="stylesheet" href="map.css" type="text/css">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="stylesheet" href="font-flaticon.css">
+    <link rel="stylesheet" href="linearicons.css">
+    <link rel="stylesheet" href="mCustomscrollbar.css">
+    <link rel="stylesheet" href="dropZone.css">
+    <link rel="stylesheet" href="magnific-popup.css">
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="blue-light.css" id="style_sheet">
+    <!-- endIf -->
+    <link rel="stylesheet" href="toastr.css">
+
+
+
+
+    <!-- Google_Font -->
+    <link rel="stylesheet" type="text/css"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800%7CPlayfair+Display:400,700%7CRoboto:100,300,400,400i,500,700">
+
+</head>
+
+<body>
+
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&autoLogAppEvents=1&version=v4.0&appId=1851623088424478"></script>
+    <!-- Option Panel -->
+    <div class="float-sm">
+
+        <div class="fl-fl float-tw">
+            <i class="ftl1 fa fa-whatsapp"></i>
+            <a href="#https://wa.me/919238123456?text=Please%20contact%20me" target="_blank">Whatsapp</a>
+        </div>
+        <div class="fl-fl float-gp">
+            <i class="ftl1 fa fa-calculator"></i>
+            <a data-toggle="modal" data-target="mycal" >EMI Calculator</a>
+        </div>
+
+
+    </div>
+    <div class="option-panel option-panel-collased" style="height:255px; top:50%">
+        <h2>Drop your mobile number we will call you</h2>
+
+
+        <div class="contact-2">
+            <div class="contact-form">
+                <form id="Callback_form" method="GET" enctype="multipart/form-data">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group fullname">
+                                <input type="text" name="full-name" class="input-text" placeholder="Full Name*">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group number">
+                                <input type="text" name="phone" class="input-text" placeholder="Mobile Number*">
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-12">
+                            <div class="form-group send-btn text-center mb-0">
+                                <button type="button" class="btn button-sm button-theme" data-dismiss="modal"
+                                    aria-label="Close" data-toggle="modal" data-target="#OtpModal">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <!-- /Option Panel -->
+
+    <!-- Top header start -->
+    <header class="top-header hidden-xs" id="top">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="list-inline">
+                        <a style="color:#fff;" href="#https://wa.me/919238123456?text=Please%20contact%20me"
+                            target="_blank"><i class="fa fa-whatsapp"></i>Chat With Us</a>
+                        <a style="color:#fff;" href="#tel:+91 7205903961"><i class="fa fa-phone"></i>+91 7205903961</a>
+                        <a style="color:#fff;" href="#mailto:sales@myspacerealty.com"><i
+                                class="fa fa-envelope"></i>sales@minewspace.com</a>
+                        <a style="color:#fff;" href="">| RERA No. : ORA/002/2017 </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Top header end -->
+    <!-- Main header start -->
+    <header class="main-header">
+        <div class="container">
+            <nav class="navbar navbar-default">
+                <div class="navbar-header menu-toggle">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#app-navigation" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="logo">
+                        <img src="./Mi_newspace.png" alt="logo">
+                    </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="navbar-collapse collapse " role="navigation" aria-expanded="true" id="app-navigation">
+                    <ul class="nav navbar-nav " >
+                        <li><a href="#/">Home </a> </li>
+                        <li><a href="#/Property">Properties </a> </li>
+                        <li><a href="#/Project">Projects </a> </li>
+
+                        <li><a href="#http://blog.minewspacerealty.com/">Blog </a> </li>
+                        <li><a href="#/Services">Services </a> </li>
+                        <li><a href="#/Contact">Contact Us </a> </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right rightside-navbar">
+                        <li>
+                            <a href="#/Property/PostProperty" class="button">
+                                Submit Property
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <input id="hdnisotp" name="hdnisotp" type="hidden" value="" />
+    <!-- Banner start -->
+    <div class="banner">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item banner-max-height active">
+                    <img src="./slid-1.jpg" alt="banner-slider-1" class="img-responsive">
+                    <div class="carousel-caption banner-slider-inner">
+                        <div class="banner-content">
+                            <h1 data-animation="animated fadeInDown delay-05s"><span>Upgrade to </span> Bigger Home</h1>
+                            <p data-animation="animated fadeInUp delay-1s">Looking to fulfil your dream, upgrade to
+                                bigger home</p>
+                            <a href='#/Property' class="btn button-md button-theme"
+                                data-animation="animated fadeInUp delay-15s">View Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item banner-max-height">
+                    <img src="./slid-2.jpg" alt="banner-slider-1" class="img-responsive">
+                    <div class="carousel-caption banner-slider-inner">
+                        <div class="banner-content">
+                            <h1 data-animation="animated fadeInDown delay-1s"><span>Sweet Home For</span> Small Family
+                            </h1>
+                            <p data-animation="animated fadeInUp delay-05s">Book your first sweet home with top
+                                ameneties and enjoy your dream.</p>
+                            <a href='#/Property' class="btn button-md button-theme"
+                                data-animation="animated fadeInUp delay-15s">View Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item banner-max-height">
+                    <img src="./slid-3.jpg" alt="banner-slider-1" class="img-responsive">
+                    <div class="carousel-caption banner-slider-inner">
+                        <div class="banner-content">
+                            <h1 data-animation="animated fadeInLeft delay-05s"><span>Verified Homes</span> For You</h1>
+                            <p data-animation="animated fadeInLeft delay-1s">We evaluate, verify and list property</p>
+                            <a href='#/Property' class="btn button-md button-theme"
+                                data-animation="animated fadeInUp delay-15s">View Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="slider-mover-left" aria-hidden="true">
+                    <i class="fa fa-angle-left"></i>
+                </span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="slider-mover-right" aria-hidden="true">
+                    <i class="fa fa-angle-right"></i>
+                </span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!-- Banner end -->
+    <!-- Search area start -->
+    <div class="search-area">
+        <div class="container">
+            <div class="search-area-inner">
+                <div class="search-contents ">
+                    <form method="GET" action="#/Property">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                                <div class="form-group">
+                                    <select class="selectpicker search-fields" id="wantto" name="wantto"
+                                        data-live-search="true" data-live-search-placeholder="Search value">
+                                        <option value="" selected>For Buy/Rent</option>
+                                        <option value="1">For Buy</option>
+                                        <option value="3">For Rent</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                                <div class="form-group">
+                                    <select class="selectpicker search-fields" name="ptype" data-live-search="true"
+                                        data-live-search-placeholder="Search value">
+                                        <option value="" selected>Property Types</option>
+                                        <option value="1">Residential Apartment</option>
+                                        <option value="11">Commercial Office/Space</option>
+                                        <option value="9">Commercial Shops</option>
+                                        <option value="10">Commercial Showroom</option>
+                                        <option value="6">Residential Studio Apartment</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                                <div class="form-group">
+                                    <select class="selectpicker search-fields" name="location" data-live-search="true"
+                                        data-live-search-placeholder="Search value">
+                                        <option value="">Location</option>
+                                        <option value="5878">Acharya Vihar&nbsp;</option>
+                                        <option value="5879">Aiginia&nbsp;</option>
+                                        <option value="5880">Airport Square&nbsp;</option>
+                                        <option value="5881">Andharua&nbsp;</option>
+                                        <option value="5882">Arugul&nbsp;</option>
+                                        <option value="5883">Ashok Nagar&nbsp;</option>
+                                        <option value="5884">Atala&nbsp;</option>
+                                        <option value="5885">Badagada&nbsp;</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                                <div class="form-group">
+                                    <select class="selectpicker search-fields" name="bedroom" data-live-search="true"
+                                        data-live-search-placeholder="Search value">
+                                        <option value="" selected>BHK</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                                <div class="form-group">
+                                    <select class="selectpicker search-fields" id="budgetfrom" name="budgetfrom"
+                                        data-live-search="true" data-live-search-placeholder="Search value">
+
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                                <div class="form-group">
+                                    <select class="selectpicker search-fields" id="budgetto" name="budgetto"
+                                        data-live-search="true" data-live-search-placeholder="Search value">
+
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                                <div class="form-group">
+                                    <select class="selectpicker search-fields" data-live-search="true" id="transaction"
+                                        name="transaction">
+                                        <option value="" selected>Transaction</option>
+                                        <option value="1">New</option>
+                                        <option value="2">Resale</option>
+                                        <option value="3">Pre Launch</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                                <div class="form-group">
+                                    <div class="range-slider">
+
+                                        <div data-min="0" data-max="10000" data-unit="Sq ft" data-min-name="min_area"
+                                            data-max-name="max_area" class="range-slider-ui ui-slider"
+                                            aria-disabled="false"></div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
+                                <div class="form-group">
+                                    <button class="search-button">Search</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Search area end -->
+    <!-- Featured properties start -->
+    <div class="content-area featured-properties">
+        <div class="container" id="div-feature-properties">
+            <!-- Main title -->
+
+        </div>
+    </div>
+    <!-- Featured properties end -->
+    <!-- Featured projects start -->
+    <div class="blog mb-70">
+        <div class="container" id="div-feature-project">
+            <!-- Main title -->
+
+        </div>
+    </div>
+    <!-- Featured project end -->
+    <!-- Our service start -->
+    <div class="mb-100 our-service">
+        <div class="container">
+            <!-- Main title -->
+            <div class="main-title">
+                <h1><span>What are you</span> looking for?</h1>
+            </div>
+            <div class="row mgn-btm wow">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 wow fadeInLeft delay-04s">
+                    <div class="content">
+                        <i class="flaticon-apartment"></i>
+                        <!-- <i class="fa-thin fa-buildings"></i> -->
+                        <h4><a href="/Property?ptype=11"> Office Space </a></h4>
+                        <p>Give Your Business a Presence in Prime Location, Witness the most luxurious working
+                            atmosphere.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 wow fadeInLeft delay-04s">
+                    <div class="content">
+                        <i class="flaticon-internet"></i>
+                        <h4><a href="/Property?ptype=1">Residential Apartment</a></h4>
+                        <p>Find verified listings of luxury residential apartments for sale / Rent posted from verified
+                            owner</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 wow fadeInRight delay-04s">
+                    <div class="content">
+                        <i class="flaticon-vehicle"></i>
+                        <h4><a href="/Property?ptype=8">Land</a></h4>
+                        <p>Buy, rent or sale of residential and commercial in your location</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 wow fadeInRight delay-04s">
+                    <div class="content">
+                        <i class="flaticon-symbol"></i>
+                        <h4><a href="/Property?ptype=9">Commercial</a></h4>
+                        <p>Get details of all the Commercial property For Sale in prime location, Office Space, Shops,
+                            Showrooms etc.</p>
+                    </div>
+                </div>
+            </div>
+            <a href=#/Services class="btn button-md button-theme">Read More</a>
+        </div>
+    </div>
+    <!-- Our service end -->
+    <!-- Recently properties start -->
+    <div class="mb-70 recently-properties chevron-icon">
+        <div class="container">
+            <!-- Main title -->
+            <div class="main-title">
+                <h1><span>Recently</span> Properties</h1>
+            </div>
+            <div class="row">
+                <div class="carousel our-partners slide" id="ourPartners2">
+                    <div class="col-lg-12 mrg-btm-30">
+                        <a class="right carousel-control" href="#ourPartners2" data-slide="prev"><i
+                                class="fa fa-chevron-left icon-prev"></i></a>
+                        <a class="right carousel-control" href="#ourPartners2" data-slide="next"><i
+                                class="fa fa-chevron-right icon-next"></i></a>
+                    </div>
+                    <div class="carousel-inner" id="div-recent-properties">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Partners block end -->
+    <div class="clearfix"></div>
+    <!-- Categories strat -->
+    <div class="categories">
+        <div class="container">
+            <!-- Main title -->
+            <div class="main-title">
+                <h1>Popular Places</h1>
+            </div>
+            <div class="clearfix"></div>
+            <div class="row wow">
+                <div class="col-lg-7 col-md-7 col-sm-12">
+                    <div class="row">
+                        <div class="col-sm-6 col-pad wow fadeInLeft delay-04s">
+                            <div class="category">
+                                <div class="category_bg_box cat-1-bg">
+                                    <div class="category-overlay">
+                                        <div class="category-content">
+                                            <div class="category-subtitle" id="lbl-populer-number-0"></div>
+                                            <h3 class="category-title">
+                                                <a href="#" id="lbl-populer-heading-0"></a>
+                                            </h3>
+                                        </div>
+                                        <!-- /.category-content -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-pad wow fadeInLeft delay-04s">
+                            <div class="category">
+                                <div class="category_bg_box cat-2-bg">
+                                    <div class="category-overlay">
+                                        <div class="category-content">
+                                            <div class="category-subtitle" id="lbl-populer-number-1"></div>
+                                            <h3 class="category-title">
+                                                <a href="#" id="lbl-populer-heading-1"></a>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-pad wow fadeInUp delay-04s">
+                            <div class="category">
+                                <div class="category_bg_box cat-3-bg">
+                                    <div class="category-overlay">
+                                        <div class="category-content">
+                                            <div class="category-subtitle" id="lbl-populer-number-2"></div>
+                                            <h3 class="category-title"><a href="#" id="lbl-populer-heading-2"></a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-12 col-pad wow fadeInRight delay-04s">
+                    <div class="category">
+                        <div class="category_bg_box category_long_bg cat-4-bg">
+                            <div class="category-overlay">
+                                <div class="category-content">
+                                    <div class="category-subtitle" id="lbl-populer-number-3"></div>
+                                    <h3 class="category-title"><a href="#" id="lbl-populer-heading-3"></a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Categories end-->
+    <!-- Testimonial section start-->
+    <div class="testimonials-3 overview-bgi">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div id="carouse3-example-generic" class="carousel slide" data-ride="carousel">
+                        <h1>Our Testimonial</h1>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item content clearfix active">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                        <div class="avatar">
+                                            <img src="./daniel-female.jpg" alt="avatar-1" class="img-responsive">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                                        <div class="testimonials-info">
+                                            <div class="text">
+                                                <sup>
+                                                    <i class="fa fa-quote-left"></i>
+                                                </sup> The best service and experience with Team Myspace.
+                                                <sub>
+                                                    <i class="fa fa-quote-right"></i>
+                                                </sub>
+                                            </div>
+                                            <div class="author-name">
+                                                Sofia Firdous
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                                <div class="testimonials-info">
+                                    <div class="text">
+                                        <sup>
+                                            <i class="fa fa-quote-left"></i>
+                                        </sup> The best service and experience with Team Mi_Newspace. <sub>
+                                            <i class="fa fa-quote-right"></i>
+                                        </sub>
+                                    </div>
+                                    <div class="author-name">
+                                        Sofia Firdous
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item content clearfix">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                <div class="avatar">
+                                    <img src="./young-female-put-glasses-looking-determined.jpg" alt="avatar-2"
+                                        class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                                <div class="testimonials-info">
+                                    <div class="text">
+                                        <sup>
+                                            <i class="fa fa-quote-left"></i>
+                                        </sup> A very professional group. Regularly followed up with me. In fact this is
+                                        the only group who who has gone all out to procure the type of flat I wanted.
+                                        <sub>
+                                            <i class="fa fa-quote-right"></i>
+                                        </sub>
+                                    </div>
+                                    <div class="author-name">
+                                        Mitali Sharma
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item content clearfix">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                <div class="avatar">
+                                    <img src="./newladyportrait-2865605_640.jpg" alt="avatar-2" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                                <div class="testimonials-info">
+                                    <div class="text">
+                                        <sup>
+                                            <i class="fa fa-quote-left"></i>
+                                        </sup>The employees of Mi_New Space are highly professional. I was surprised
+                                        to see the number of property buying options they provided within my budget.
+                                        <br> The properties were great and did meet my requirements as well.
+                                        <sub>
+                                            <i class="fa fa-quote-right"></i>
+                                        </sub>
+                                    </div>
+                                    <div class="author-name">
+                                        Alexandra cortex
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carouse3-example-generic" role="button" data-slide="prev">
+                    <span class="slider-mover-left t-slider-l" aria-hidden="true">
+                        <i class="fa fa-angle-left"></i>
+                    </span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carouse3-example-generic" role="button" data-slide="next">
+                    <span class="slider-mover-right t-slider-r" aria-hidden="true">
+                        <i class="fa fa-angle-right"></i>
+                    </span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+    </div>
+    <!-- Testimonial  end -->
+    <div class="clearfix"></div>
+
+    <!-- Partners block start -->
+    <!-- Partners block end -->
+    <div class="modal property-modal fade" id="connect-dealer-modal" tabindex="-1" role="dialog"
+        aria-labelledby="carModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color:#fff">
+                    <h4 class="modal-title text-center" id="lbl-header-title" style="color:#000; font-size: 20px;"></h4>
+                    <h4 class="modal-title text-center" id="lbl-header-location" style="color:#000; font-size: 14px;">
+                    </h4>
+                    <p class="text-center" style="color:#000">
+                        Please fill the below form we will call you soon.
+                    </p>
+                    <input type="hidden" id="hidden-header-propnumber" />
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row modal-raw">
+                        <div class="col-lg-12">
+                            <div class="modal-left-content">
+                                <div style="padding: 30px;">
+                                    <div class="contact-2">
+                                        <div class="contact-form">
+                                            <form id="contact_form" action="" method="GET">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="form-group fullname">
+                                                            <input type="text" name="name" id="name" class="input-text"
+                                                                placeholder="Your name*">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <div class="form-group number">
+                                                            <input type="text" name="mobile" id="mobile"
+                                                                class="input-text"
+                                                                placeholder="10 digit mobile number*">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <div class="form-group enter-email">
+                                                            <input type="email" name="email" id="email"
+                                                                class="input-text" placeholder="Enter email">
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div class="col-md-12">
+                                                        <div class="form-group message">
+                                                            <small>I Agree to Mi_New Space Pvt. Ltd. <a target="_blank"
+                                                                    href=#/Terms><u> Terms of
+                                                                        Use</u></a> </small>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <div class="form-group send-btn mb-0">
+                                                            <button type="submit" id="btnDealerCall"
+                                                                class="btn button-sm button-theme">
+                                                                Contact Dealer
+                                                            </button>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal property-modal fade" id="contact-otp-model" tabindex="-1" role="dialog"
+        aria-labelledby="carModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color:#fff">
+                    <h4 class="text-center" id="lbl-sent-mobile" style="color:#000">
+                    </h4>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"
+                        style="margin: -54px -1px -15px auto;">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="row modal-raw">
+                        <div class="col-lg-12">
+                            <div class="modal-left-content">
+                                <div style="padding: 30px;">
+                                    <div class="contact-2">
+                                        <div class="contact-form">
+                                            <form id="otp_form" action="" method="GET">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="form-group fullname">
+                                                            <input type="number" name="otp" id="otp" class="input-text"
+                                                                placeholder="Enter OTP">
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div class="col-md-12">
+                                                        <button type="submit" class="btn button-sm button-theme"
+                                                            id="btnOTP">
+                                                            Verify OTP
+                                                        </button>
+
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Car Video Modal -->
+    <div class="modal property-modal fade" id="property-vedio-modal" tabindex="-1" role="dialog"
+        aria-labelledby="carModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="lbl-vedio-title">
+                    </h5>
+                    <p id="lbl-vedio-location">
+
+                    </p>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row modal-raw">
+                        <div class="col-lg-5 modal-left">
+                            <div class="modal-left-content">
+                                <div class="bs-example" data-example-id="carousel-with-captions">
+                                    <div class="carousel slide" id="properties-carousel" data-ride="carousel">
+                                        <div class="carousel-inner" role="listbox">
+
+                                            <div class="item active">
+                                                <iframe class="modalIframe" id="lbl-vedio-youtube"
+                                                    src="https://www.youtube.com/embed/05DqIGS_koU"
+                                                    allowfullscreen></iframe>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="description">
+                                    <h3>Description</h3>
+                                    <p id="lbl-vedio-description">
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 modal-right">
+                            <div class="modal-right-content bg-white">
+                                <strong class="price" id="lbl-vedio-price">
+
+                                </strong>
+                                <section>
+                                    <h3>Features</h3>
+                                    <div class="features">
+                                        <ul class="bullets" id="ul-amenities-features">
+                                        </ul>
+                                    </div>
+                                </section>
+                                <section>
+                                    <h3>Overview</h3>
+                                    <dl>
+                                        <dt>Area</dt>
+                                        <dd><span id="model-lbl-area">...</span></dd>
+                                        <dt>Price</dt>
+                                        <dd><span id="model-lbl-price">...</span></dd>
+                                        <dt>Status</dt>
+                                        <dd><span id="model-lbl-status">...</span></dd>
+                                        <dt>Location</dt>
+                                        <dd><span id="model-lbl-location">...</span></dd>
+                                    </dl>
+                                </section>
+
+                                <a href="" target="_blank" class="btn button-sm button-theme" id="lbl-vedio-url">Show
+                                    Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal property-modal fade" id="project-vedio-modal" tabindex="-1" role="dialog"
+        aria-labelledby="carModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="lbl-project-vedio-title"></h5>
+                    <p id="lbl-project-vedio-location">
+
+                    </p>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row modal-raw">
+                        <div class="col-lg-5 modal-left">
+                            <div class="modal-left-content">
+                                <div class="bs-example" data-example-id="carousel-with-captions">
+                                    <div class="carousel slide" id="properties-carousel" data-ride="carousel">
+                                        <div class="carousel-inner" role="listbox">
+
+                                            <div class="item active">
+                                                <iframe class="modalIframe" id="lbl-project-vedio-youtube"
+                                                    src="https://www.youtube.com/embed/05DqIGS_koU"
+                                                    allowfullscreen></iframe>
+                                            </div>
+                                            <div class="item">
+                                                <iframe class="modalIframe" id="lbl-project-vedio-walk"
+                                                    src="https://www.youtube.com/embed/05DqIGS_koU"
+                                                    allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                        <a class="control control-prev" href="#properties-carousel" role="button"
+                                            data-slide="prev">
+                                            <i class="fa fa-angle-left"></i>
+                                        </a>
+                                        <a class="control control-next" href="#properties-carousel" role="button"
+                                            data-slide="next">
+                                            <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="description">
+                                    <h3>Description</h3>
+                                    <p id="lbl-project-vedio-description">
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 modal-right">
+                            <div class="modal-right-content bg-white">
+                                <strong class="price" id="lbl-project-vedio-price">
+
+                                </strong>
+                                <section>
+                                    <h3>Features</h3>
+                                    <div class="features">
+                                        <ul class="bullets" id="lbl-project-vedio-aminities">
+                                        </ul>
+                                    </div>
+                                </section>
+                                <section>
+                                    <h3>Overview</h3>
+                                    <dl>
+                                        <dt>Price</dt>
+                                        <dd id="lbl-project-vedio-pricerange">...</dd>
+                                        <dt>Area</dt>
+                                        <dd id="lbl-project-vedio-arearange">...</dd>
+                                        <dt>Commencement Certificate</dt>
+                                        <dd id="lbl-project-vedio-oc">...</dd>
+                                        <dt>Occupancy Certificate</dt>
+                                        <dd id="lbl-project-vedio-cc">...</dd>
+                                        <dt>Possession</dt>
+                                        <dd id="lbl-project-vedio-possession">...</dd>
+
+                                    </dl>
+                                </section>
+                                <a href="" target="_blank" class="btn button-sm button-theme"
+                                    id="lbl-project-vedio-url">Show Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Intro section strat -->
+    <div class="intro-section">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-10 col-sm-9 col-xs-12">
+                    <h3>Looking To Sell Or Rent Your Property?</h3>
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-12">
+                    <a href="#/Property/PostProperty" class="btn button-md button-theme">Submit Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer start -->
+    <footer class="main-footer clearfix">
+        <div class="container">
+            <!-- Footer info-->
+            <div class="footer-info">
+                <div class="row">
+                    <!-- About us -->
+                    <div class="col-lg-4 col-md-3 col-sm-6 col-xs-12">
+                        <div class="footer-item">
+                            <div class="main-title-2">
+                                <h1>Contact Us</h1>
+                            </div>
+                            <p>
+                                Get in touch with us
+                            </p>
+                            <ul class="personal-info">
+                                <li>
+                                    <i class="fa fa-map-marker"></i> NewColony, Saheed Nagar, Rayagada, Odisha 765001
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-envelope"></i> Email:
+                                    <a href="mailto:sales@mispacerealty.com">sales@minewspace.com</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-phone"></i> Phone: <a href="tel:+91 9xx xx 00 xx">+91 72059X39XX</a>
+                                </li>
+
+                            </ul>
+                            <div class="main-title-2">
+                                <h1>About Us</h1>
+                            </div>
+                            <p>Mi_New Space Pvt. Ltd. is amongst the leading Real Estate Consultants in India. It is
+                                one of the first few organizations in Rayagada, Odisha who recognized the importance of
+                                investing in Indian real estate market. The
+                                head office of our company is based at the most flourishing city of Bhubaneswar. It is
+                                an ISO 9001:2008 Certified, RERA registered ORA/0072/2023 real estate organization with
+                                its extensive resources and ability to offer
+                                personalized professional services, holds strong foothold in the industry.</p>
+                        </div>
+                    </div>
+                    <!-- Links -->
+                    <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                        <div class="footer-item">
+                            <div class="main-title-2">
+                                <h1>Links</h1>
+                            </div>
+                            <ul class="links">
+                                <li>
+                                    <a href="#/">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#/About">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="#/Contact">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="#/Services">Services</a>
+                                </li>
+                                <li>
+                                    <a href="#/Terms" target="_blank">Terms and Conditions</a>
+                                </li>
+                                <li>
+                                    <a href="#/Privacy" target="_blank">Privacy</a>
+                                </li>
+                                <li>
+                                    <a href="#/CookiePolicy" target="_blank">Cookie Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#/Property?ptype=2&amp;WantToCsv=1" target="_blank">Commercial sale</a>
+                                </li>
+
+                                <li>
+                                    <a href="#/Property?ptype=1&amp;WantToCsv=1" target="_blank">Residential sale</a>
+                                </li>
+                                <li>
+                                    <a href="#/Property?ptype=2&amp;WantToCsv=3" target="_blank">Residential
+                                        Rent/Lease</a>
+                                </li>
+
+                                <li>
+                                    <a href="#/Property?ptype=1&amp;WantToCsv=3" target="_blank">Commercial
+                                        Rent/Lease</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Recent cars -->
+                    <div class="col-lg-6 col-md-7 col-sm-6 col-xs-12">
+                        <div class="footer-item popular-posts">
+                            <div class="main-title-2">
+                                <h1>Facebook Posts</h1>
+                            </div>
+                            <div class="fb-page" data-href="https://www.facebook.com/MySpaceRealty/"
+                                data-tabs="timeline" data-width="500" data-height="450px" data-small-header="true"
+                                data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                                <blockquote cite="https://www.facebook.com/MySpaceRealty/"
+                                    class="fb-xfbml-parse-ignore"><a
+                                        href="#https://www.facebook.com/MySpaceRealty/">X2X_Tricks.com</a></blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Subscribe -->
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copy-right" style="padding: 10px 0;">
+        <div class="container">
+            <div class="row clearfix">
+                <div class="col-md-12 col-sm-12">
+                    <p style="font-size:11px;color: #646565; line-height: 20px; margin-bottom: 0px;">Disclaimer: We are
+                        channel partners for sale or lease of residential, commercial and plots for various real estate
+                        India developers. All investors are advised to exercise caution at the time of investing and to
+                        read through the developer
+                        agreements carefully before investing. We are not the developers and neither do we claim to be
+                        the developers. The developer is solely responsible for all deliverables. We will not be
+                        responsible for any losses incurred by an investor
+                        due to any reasons whatsoever or for any claims arising out of negligence of the developers or
+                        due to product not being as promised.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Footer end -->
+    <!-- Copy right start -->
+    <div class="copy-right">
+        <div class="container">
+            <div class="row clearfix">
+                <div class="col-md-8 col-sm-12">
+                    &copy; 2023 <a href="#" target="_blank">Mi New Space Pvt. Ltd.</a>.
+                    Trademarks and brands are the property of their respective owners.
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <ul class="social-list clearfix">
+                        <li>
+                            <a href="#https://www.facebook.com/MinewSpaceRealty/" class="facebook">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#https://twitter.com/minewspace_realty?lang=en" class="twitter">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#https://www.linkedin.com/company/mynewspacerealty/?originalSubdomain=in"
+                                class="linkedin">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#https://www.instagram.com/realtymynewspace/?hl=en" class="google">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#https://www.youtube.com/channel/UCvZYrfAZRQkahE6DNaIo0Jw" class="google">
+                                <i class="fa fa-youtube"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="mycal" class="modal fade" role="dialog" style="z-index:9999999999;">
+        <div class="modal-dialog mycaldialog ">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                </div>
+                <div class="modal-body" style="height:560px;">
+                    <iframe id="ecww-widget-iframe" frameborder="0" scrolling="no" width="800px" height="280px"
+                        src="https://emicalculator.net/widget/2.0/widget.html"
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+<script src="./bs.min.js"></script>
+
+</body>
+
+</html>
